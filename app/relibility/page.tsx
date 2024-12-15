@@ -1,10 +1,5 @@
 import React from 'react'
 import HeroImg from '@/app/components/hero'
-import { Metadata } from 'next'
-
-export const metadate: Metadata = {
-  title: "Relibility"
-}
 
 export default function page() {
   return (
