@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Aboreto } from 'next/font/google'
- 
+import Header from "./components/header";
 
 const inter = Aboreto({
   subsets: ['latin'],
@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body >
+        <Header />
         {children}
       </body>
     </html>
